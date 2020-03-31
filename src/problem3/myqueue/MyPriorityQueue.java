@@ -4,7 +4,6 @@
  *  Date: 23-Mar-20
  *  Time: 7:15 PM
  */
-
 package problem3.myqueue;
 
 
@@ -20,7 +19,6 @@ public class MyPriorityQueue {
         rear = null;
         size = 0;
     }
-
     public void enqueue(Node addData) {
         if (front == null) {
             rear = addData;
